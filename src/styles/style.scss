@@ -1,7 +1,21 @@
 // common files
+@import "common/_layout";
 @import "common/_variables";
 @import "common/_fonts";
 @import "common/_typography";
 
 // blocks
-@import "blocks/_promo";
+@import "blocks/_header";
+@import "blocks/_main";
+@import "blocks/_main_content";
+@import "blocks/_slider";
+@import "blocks/_services";
+@import "blocks/_lawyer";
+@import "blocks/_accountant";
+@import "blocks/_licensing";
+@import "blocks/_real_estate";
+@import "blocks/_price";
+@import "blocks/_about";
+@import "blocks/_our_team";
+@import "blocks/_contacts";
+@import "blocks/_footer";
