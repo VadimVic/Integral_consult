@@ -1,8 +1,10 @@
 .header {
     position: fixed;
+    margin: 0 auto;
     top: 0;
     left: 26.1em;
     right: 26em;
+    background-color: #fff;
 }
 .header .container {
     margin: 0 auto; 
@@ -18,4 +20,8 @@
 
 .phones a {
     margin-bottom: 1em;
+}
+
+.header img {
+    background-color: #fff;
 }

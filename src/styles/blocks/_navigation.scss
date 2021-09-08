@@ -7,8 +7,10 @@
 }
 
 .nav_item {
-border: 2px solid black;
-margin-right: 30px;
+    min-width: 10em;
+    text-align: center;
+    border: 2px solid black;
+    margin-right: 30px;
     p {
         margin: 0;
     }

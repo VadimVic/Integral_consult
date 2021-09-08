@@ -1,0 +1,44 @@
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.services_box {
+    width: 47%;
+    margin: 1em;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.services_bgr {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.team-info {
+    display: none;
+}
+  
+.team-info-visible {
+    display: block;
+}
+
+.team-links{
+    padding: 0;
+
+    li {
+        padding-left: 7em;
+    }
+}
+
+.team-links .active {
+    color: red;
+}
+
+.services h2 {
+    text-align: center;
+}

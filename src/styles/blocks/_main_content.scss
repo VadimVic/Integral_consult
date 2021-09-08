@@ -1,0 +1,28 @@
+.main_content {
+    background-image: url(../images/integral/12.jpg );
+    // display: flex;
+    // flex-direction: column;
+    background-position: right ;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    
+}
+
+.main_wrap {
+    width: 50%;
+    background: linear-gradient( to right, rgba(52, 42, 97, .9), rgba(104, 16, 63, 0.1));
+    // background: rgba(52, 42, 97, 0.6);
+    
+}
+
+.main_content h1 {
+    padding-left: 1em;
+    padding-top: 8em ;
+    // max-width: 27em;
+}
+
+.main_content p {
+    max-width: 90%;
+    padding: 5em 0 9em 2em;
+    color: rgb(22, 140, 219);
+}
