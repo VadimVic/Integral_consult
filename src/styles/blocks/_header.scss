@@ -10,18 +10,32 @@
     margin: 0 auto; 
     display: flex;
     justify-content: space-around;
+    position: relative;
 }
 
 .phones {
     margin: 1em 0 1em 0;
     display: flex;
     flex-direction: column;
+    a:hover {
+      color: #D46240;
+     }
 }
 
 .phones a {
     margin-bottom: 1em;
+
 }
 
 .header img {
     background-color: #fff;
+ }
+
+.logo_text {
+    position:absolute;
+    top: 20px;
+    left: 20px;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight:bold ;
 }

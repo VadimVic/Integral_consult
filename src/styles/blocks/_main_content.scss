@@ -35,10 +35,11 @@
   }
   
   .main_text {
-    margin: 0 auto;
-    max-width: 100%;
-    padding: 5em 0 9em 2em;
+    max-width: 80%;
+    padding: 5em 0 9em 0;
     color: rgb(22, 140, 219);
+    font-size: 18px;
+    text-align: left;
   }
   
   .main_wrap {
@@ -53,11 +54,11 @@
   }
   
   .main-title {
-    max-width: 50%;
+    max-width: 70%;
     padding-top: 191px;
-    padding-left: 20px;
     line-height: 46.18px;
     color: rgb(219, 211, 211);
-    font-size: 28px;
+    font-size: 48px;
     text-align: left;
+    font-weight: normal;
   }
