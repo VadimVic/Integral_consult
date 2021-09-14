@@ -2,6 +2,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    padding: 150px 0;
 }
 
 .services_box {
@@ -10,7 +11,11 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border: 10px solid linear-gradient( to right, rgba(15, 11, 32, 0.95), rgba(221, 200, 211, 0.1));
     border-radius: 10px;
+    li {
+        list-style: none;
+      }
 }
 
 .services_bgr {
@@ -19,15 +24,15 @@
     height: 100%;
 }
 
-.team-info {
+.service-info {
     display: none;
 }
   
-.team-info-visible {
+.service-info-visible {
     display: block;
 }
 
-.team-links{
+.service-links{
     padding: 0;
 
     li {
@@ -35,7 +40,7 @@
     }
 }
 
-.team-links .active {
+.service-links .active {
     color: red;
 }
 

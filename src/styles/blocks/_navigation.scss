@@ -2,7 +2,7 @@
     display: flex;
     align-items: center;
      a:hover {
-        color: #D46240;
+        color: rgb(194, 173, 135);
 
       }
 }
@@ -19,6 +19,8 @@
     min-width: 10em;
     text-align: center;
     margin-right: 30px;
+    list-style: none;
+
     p {
         margin: 0;
     }

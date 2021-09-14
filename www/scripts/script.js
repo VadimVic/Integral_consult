@@ -1,16 +1,16 @@
 $(document).ready(function () {
 
-$('.team-links a').on('click', function (e) {
+$('.service-links li').on('click', function (e) {
     e.preventDefault();
 
-    let index = $(this).index('.team-links a');
+    let index = $(this).index('.service-links li');
     console.log(index);
 
-    $('.team-links a').removeClass('active');
+    $('.service-links li').removeClass('active');
     $(this).addClass('active');
 
-    $('.team-info').removeClass('team-info-visible');
-    $('.team-info').eq(index).addClass('team-info-visible');
+    $('.service-info').removeClass('service-info-visible');
+    $('.service-info').eq(index).addClass('service-info-visible');
   });
 
 });
