@@ -1,4 +1,26 @@
-.price td {
-      color: black;
+.price {
+    margin-top: 220px;
+}
 
+  .law {
+    // display: none;
   }
+
+  .counter {
+    //   display: none;
+  }
+
+.price table {
+    display: flex;
+}
+
+  .price tr {
+      text-align: left;
+            
+  }
+
+  .price td {
+    color: black;
+    padding: 0 20px 0 10px;
+       
+}
