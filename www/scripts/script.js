@@ -1,12 +1,12 @@
 $(document).ready(function () {
 
-$('.service-links li').on('click', function (e) {
+$('.service-links a').on('click', function (e) {
     e.preventDefault();
 
-    let index = $(this).index('.service-links li');
+    let index = $(this).index('.service-links a');
     console.log(index);
 
-    $('.service-links li').removeClass('active');
+    $('.service-links a').removeClass('active');
     $(this).addClass('active');
 
     $('.service-info').removeClass('service-info-visible');
