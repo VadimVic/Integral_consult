@@ -19,24 +19,40 @@
   // }
 
   .h2 {
-
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 47px;
+    color: black;
   }
 
   .h3 {
-
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 30px;
+    color: black;
   }
 
   p {
-
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: black;
   }
 
   a {
      text-decoration: none; 
      color: black;
+     font-size: 18px;
   }
 
   ul {
-
+    font-size: 18px;
   }
 
   td {
