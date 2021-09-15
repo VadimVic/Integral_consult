@@ -11,16 +11,25 @@
   }
 
 .price table {
-    display: flex;
+    width: 100%;
+    // display: flex;
+    border-spacing: 0;
+    border-collapse:collapse ;
+    border: 4px solid #c3bfbf;
 }
 
   .price tr {
-      text-align: left;
-            
+      text-align: center;       
+  }
+
+  .price .first_column {
+    text-align: left;
   }
 
   .price td {
+    
     color: black;
     padding: 0 20px 0 10px;
+    border: 4px solid #c3bfbf;
        
 }
