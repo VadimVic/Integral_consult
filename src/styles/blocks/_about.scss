@@ -1,0 +1,15 @@
+.review_clients {
+    display: flex;
+    // margin: 20px 0;
+    justify-content: space-between;
+}
+
+.person {
+    max-width: 25%;
+    text-align: center;
+
+}
+
+.person img {
+    max-width: 300px;
+}
