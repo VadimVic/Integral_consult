@@ -1,12 +1,34 @@
 
 .contacts {
-margin-top: 220px;
+    margin-top: 220px;
 }
 
 .contacts .container {
     display: flex;
+    margin-bottom: 60px;
+    justify-content: space-between;
 }
 
 .contacts_info {
+    display: flex;
+    flex-direction: column;
     margin: 0 3em;
 }
+
+.map_box {
+    width: 45%;
+    border: 3px solid black;
+    }
+
+    .phone_box td{
+        width: 20%;
+        padding: 0;
+    }
+
+    .contacts_info ul {
+        margin: 0;
+    }
+
+    .contacts_info li {
+        list-style: none;
+    }
