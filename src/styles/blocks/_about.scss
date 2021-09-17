@@ -1,15 +1,32 @@
+.about {
+    background-color: rgba(182, 101, 158, 0.1) ;
+    color: white;
+    box-shadow: 5px 5px 70px rgba(182, 101, 158, 0.2);
+    }
+
+.about h2 {
+    text-align: center;
+}
 .review_clients {
     display: flex;
-    // margin: 20px 0;
-    justify-content: space-between;
+    // background-color: rgb(210, 233, 221);
+    justify-content: space-around;
 }
 
 .person {
+    margin-top: 20px;
     max-width: 25%;
     text-align: center;
-
 }
 
-.person img {
+.about img {
     max-width: 300px;
+    border: 3px solid rgba(182, 101, 158, 0.5);
+    box-shadow: 5px 5px 40px rgb(212, 63, 63);
+}
+
+.certificates {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
 }

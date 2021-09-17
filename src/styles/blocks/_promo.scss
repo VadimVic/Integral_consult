@@ -1,6 +1,20 @@
 .promo {
-    // background-color: rgb(226, 198, 198);
+    // position: fixed;
+    // left: -41%;
+    // left: 0;
+    // top: 13%;
+    background-color: rgba(00, 00, 00, .5) ;
+    color: white;
 }
+
+// .promo .btn{
+// position: absolute;
+// left: 95%;
+// .promo .btn:checked .service-info-visible {
+// display: none;
+// }
+// }
+
 .article_info {
     display: flex;
 }
@@ -17,4 +31,19 @@
 .table {
     margin-top: 10px;
     width: 100%;
+}
+
+
+.service-info {
+    display: none;
+    width: 100%;
+}
+  
+.service-info-visible {
+    display: block;
+    width: 100%;
+}
+
+.description {
+    padding-bottom: 30px;
 }
