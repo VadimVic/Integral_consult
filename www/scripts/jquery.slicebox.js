@@ -163,7 +163,7 @@
 		perspective : 1200,
 		// number of slices / cuboids
 		// needs to be an odd number 15 => number > 0 (if you want the limit higher, change the _validate function).
-		cuboidsCount : 5,
+		cuboidsCount : 3,
 		// if true then the number of slices / cuboids is going to be random (cuboidsCount is overwitten)
 		cuboidsRandom : false,
 		// the range of possible number of cuboids if cuboidsRandom is true

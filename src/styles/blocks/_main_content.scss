@@ -1,10 +1,7 @@
-
-
 .main_content {
     background-size: cover;
     background-position: top;
     text-align: center;
-
   }
   
   .main_text {
@@ -16,8 +13,8 @@
   }
   
   .main_wrap {
-    padding-top: 50px;
-    padding-bottom: 50px;
+    // padding-top: 50px;
+    // padding-bottom: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,7 +25,7 @@
   
   .main-title {
     max-width: 70%;
-    padding-top: 191px;
+    padding-top: 60px;
     line-height: 46.18px;
     color: rgb(219, 211, 211);
     font-size: 48px;
