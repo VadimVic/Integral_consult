@@ -1,20 +1,7 @@
 .promo {
-    // position: fixed;
-    // left: -41%;
-    // left: 0;
-    // top: 13%;
     background-color: rgba(00, 00, 00, .3) ;
-    // background-color: rgba(182, 101, 158, 0.4) ;
     color: white;
 }
-
-// .promo .btn{
-// position: absolute;
-// left: 95%;
-// .promo .btn:checked .service-info-visible {
-// display: none;
-// }
-// }
 
 .article_info {
     display: flex;
@@ -47,4 +34,10 @@
 
 .description {
     padding-bottom: 30px;
+}
+
+.promo td {
+color: rgb(66, 105, 233);
+font-weight: 600;
+font-size: 24px;
 }

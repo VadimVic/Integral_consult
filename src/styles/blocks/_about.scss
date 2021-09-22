@@ -1,11 +1,14 @@
 .about {
+    position: relative;
     background-color: rgba(182, 101, 158, 0.1) ;
     color: white;
     box-shadow: 5px 5px 70px rgba(182, 101, 158, 0.2);
     }
 
+
 .about h2 {
     text-align: center;
+    padding-top: 170px;
 }
 .review_clients {
     display: flex;
