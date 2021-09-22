@@ -77,15 +77,35 @@
     position: fixed;
     top: 90%;
     left: 50px;
-    width: 110px;
-    height: 70px;
-    border: 0 solid rgba(243, 14, 132, 0.1);
-    box-shadow: 0 0 120px rgba(182, 101, 158, .7);
-    border-radius: 40px;
+    width: 100px;
+    height: 50px;
+    border: 0.5px solid rgba(243, 14, 132, 0.1);
+    box-shadow: 0 0 120px rgba(182, 101, 158, .9);
+    border-radius: 44px;
     background-color: rgb(228, 223, 220);
     z-index: 10000;
-    // color: rgb(230, 130, 200);
-    // font-size: 20px;
-    // text-transform: uppercase;
-    // font-weight: 700;
+
+  }
+
+  .triangle_form {
+    position: absolute;
+    top: -35px;
+    left: 10px;
+    width: 0;
+    height: 0;
+    border-width: 40px;
+    border-style: solid;
+    border-color: transparent transparent rgba(243, 14, 132, 0.1) transparent;
+    box-sizing: content-box;
+   
+  }
+
+  .back_btn span {
+    position: absolute;
+    top: 48px;
+    left: -45px;
+    color: rgba(243, 14, 132, 0.1);
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: 700;
   }

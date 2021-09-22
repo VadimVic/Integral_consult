@@ -1,20 +1,11 @@
 .price {
-    // // display: none;
-    // margin-top: 200px;
     position: relative;
 
 }
 
 .price h2 {
-  padding-top: 200px;
+    padding-top: 200px;
 }
-  .law {
-    // display: none;
-  }
-
-  .counter {
-    //   display: none;
-  }
 
 .price table {
     width: 100%;
@@ -24,15 +15,15 @@
     border: 4px solid #c3bfbf;
 }
 
-  .price tr {
-      text-align: center;       
-  }
+.price tr {
+   text-align: center;       
+}
 
-  .price .first_column {
+.price .first_column {
     text-align: left;
-  }
+}
 
-  .price td {
+.price td {
     
     color: black;
     padding: 0 20px 0 10px;
