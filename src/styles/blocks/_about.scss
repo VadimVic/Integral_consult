@@ -19,6 +19,9 @@
     margin-top: 20px;
     width: 25%;
     text-align: center;
+    .h4, p {
+        width: 80%;
+    }
 }
 
 .about img {
@@ -35,4 +38,20 @@
 
 .certificates img {
     width: 33%;
+}
+
+.person_card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.person_item {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.person_item p{
+    margin-top: auto;
 }
