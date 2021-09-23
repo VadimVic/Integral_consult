@@ -1,0 +1,56 @@
+@media (max-width: 1350px) {
+    .nav_items {
+        flex-direction: column;
+    }
+  }
+
+  @media (max-width: 1065px) {
+    .services_box {
+        width: 90%;
+        text-align: center;
+        }
+
+        .service-links{
+            padding: 0;
+        
+            li {
+                padding-left: 0;
+            }
+        }
+
+    }
+
+
+    @media (max-width: 745px) {
+        td {
+            max-width: 48%;
+            font-size: 12px;
+            color: rgb(231, 43, 43);
+            font-weight: normal;
+            padding-left: 5%;
+          }
+
+          .logo_text {
+           position: static;
+        }
+
+            .logo {
+                display: none;
+            }
+            .header .container {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .phones {
+                margin:0;
+               
+            }
+            
+            .phones a {
+                margin-bottom: 0;
+            
+            }
+
+        }
+  

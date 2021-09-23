@@ -12,24 +12,27 @@
 }
 .review_clients {
     display: flex;
-    // background-color: rgb(210, 233, 221);
     justify-content: space-around;
 }
 
 .person {
     margin-top: 20px;
-    max-width: 25%;
+    width: 25%;
     text-align: center;
 }
 
 .about img {
-    max-width: 300px;
+    // max-width: 300px;
     border: 3px solid rgba(182, 101, 158, 0.5);
     box-shadow: 5px 5px 40px rgb(212, 63, 63);
 }
 
 .certificates {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding-bottom: 30px;
+}
+
+.certificates img {
+    width: 33%;
 }
