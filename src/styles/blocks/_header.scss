@@ -8,7 +8,7 @@
     background-color: #fff;
     color: rgb(194, 173, 135);
 }
-.header .container {
+.header .content {
     margin: 0 auto; 
     display: flex;
     justify-content: space-around;
@@ -41,4 +41,8 @@
     font-size: 40px;
     font-weight:bold ;
     color: rgb(194, 173, 135);
+}
+
+.logo-hiden {
+    display: none;
 }

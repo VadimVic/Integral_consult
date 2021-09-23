@@ -1,14 +1,14 @@
 @media (max-width: 1350px) {
     .nav_items {
         flex-direction: column;
-    }
+        }
   }
 
-  @media (max-width: 1065px) {
+@media (max-width: 1065px) {
     .services_box {
         width: 90%;
         text-align: center;
-        }
+            }
 
         .service-links{
             padding: 0;
@@ -16,41 +16,121 @@
             li {
                 padding-left: 0;
             }
-        }
+            }
 
-    }
+        .promo .h2 {
+            text-align: center;
+            }
+
+        .price .h2 {
+            text-align: center;
+            }
+
+        .contacts {
+            margin-top: 60px;
+            }
+        .contacts .container {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 60px;
+            }
+
+        .map_box {
+            width: 70%;
+            margin: 0 auto;
+            }
+
+        .contacts_info {
+            margin: 0;
+            width: 100%;
+            text-align: center;
+            margin-bottom: 30px;
+
+                p {
+                    margin: 0;
+                }
+
+                .left_col {
+                    text-align: right;
+                }     
+            
+                .right_col {
+                    text-align: left;
+                }
+            }
+}
 
 
-    @media (max-width: 745px) {
+@media (max-width: 745px) {
         td {
             max-width: 48%;
             font-size: 12px;
             color: rgb(231, 43, 43);
             font-weight: normal;
             padding-left: 5%;
-          }
+                }
 
-          .logo_text {
-           position: static;
-        }
+            .logo_text {
+                position: static;
+                }
 
             .logo {
                 display: none;
-            }
-            .header .container {
+                }
+
+            .header .content {
                 flex-direction: column;
                 align-items: center;
-            }
+                }
+
+            .header .container {
+                display: flex;
+                }
 
             .phones {
                 margin:0;
-               
-            }
+                }
             
             .phones a {
                 margin-bottom: 0;
-            
-            }
+                }
 
-        }
+            .services .container{
+                 padding: 50px 0 50px 0;
+                } 
+                
+            .price h2 {
+                padding-top: 50px;
+                }
+
+            .promo img{
+                display: none;
+                }
+
+            .logo-hiden {
+                 display: block;
+                }
+
+            .about h2 {
+                padding-top: 30px;
+                }  
+                
+            .quality .container {
+                flex-direction: column;
+
+                .quality_box {
+                    width: 100%;
+                    }
+                }
+
+            .footer .container {
+                flex-direction: column-reverse;
+
+                    p {text-align: center;}
+
+                .social_box {
+                    justify-content: center;
+                }
+                }
+}
   
