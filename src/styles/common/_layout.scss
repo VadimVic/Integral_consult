@@ -13,20 +13,11 @@
   }
 
 
-  // strong {
-  //   text-transform: uppercase;
-  //   font-family: 'Roboto', sans-serif;
-  //   font-style: normal;
-  //   font-weight: 700;
-  //   font-size: 40px;
-  //   line-height: 47px;
-  //   color: rgb(49, 59, 200);
-  // }
-  // h1 {
-  //   color: rgb(219, 211, 211);
-  //   font-size: 28px;
-
-  // }
+  img {
+    /* Что бы пропала "полоска" под изображением */
+    display: block;
+    max-width: 100%;
+  }
 
   .h2 {
     font-family: 'Roboto', sans-serif;

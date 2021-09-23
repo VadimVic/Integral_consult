@@ -17,8 +17,14 @@
 }
 
 .quality_box {
+    // display: flex;
+    // flex-direction: column;
     width: 25%;
     text-align: center;
+}
+
+.quality_box img {
+    margin: 0 auto;
 }
 
 .quality strong {
