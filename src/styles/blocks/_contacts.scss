@@ -20,6 +20,11 @@
     width: 45%;
     border: 3px solid rgba(182, 101, 158, .5);
     box-shadow: 5px 5px 70px rgba(182, 101, 158, 0.6);
+
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
     }
 
     .phone_box td{
@@ -34,3 +39,4 @@
     .contacts_info li {
         list-style: none;
     }
+
